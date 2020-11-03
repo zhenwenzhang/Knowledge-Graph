@@ -1,5 +1,22 @@
 # Knowledge-Graph Papers
 
+### Can We Predict New Facts with Open Knowledge Graph Embeddings? A Benchmark for Open Link Prediction[[ACL 2020](https://www.aclweb.org/anthology/P19-1139.pdf)]
+
+*Houyu Zhang, Zhenghao Liu, Chenyan Xiong, Zhiyuan Liu*
+
+Brown University,Tsinghua University,Microsoft Research AI
+
+**Abstract** Human conversations naturally evolve around related concepts and hop to distant concepts. This paper presents a new conversation generation model, ConceptFlow, which leverages commonsense knowledge graphs to explicitly model conversation flows. By grounding conversations to the concept space, ConceptFlow represents the potential conversation flow as traverses in the concept space along commonsense relations. The traverse is guided by graph attentions in the concept graph, moving towards more meaningful directions in the concept space, in order to generate more semantic and informative responses. Experiments on Reddit conversations demonstrate ConceptFlow’s effectiveness over previous knowledge-aware conversation models and GPT-2 based models while using 70% fewer parameters, confirming the advantage of explicit modeling conversation structures. All source codes of this work are available at https://github.com/thunlp/ConceptFlow.
+
+
+### Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs[[ACL 2020](https://www.aclweb.org/anthology/P19-1139.pdf)]
+
+*Houyu Zhang, Zhenghao Liu, Chenyan Xiong, Zhiyuan Liu*
+
+Brown University,Tsinghua University,Microsoft Research AI
+
+**Abstract** Human conversations naturally evolve around related concepts and hop to distant concepts. This paper presents a new conversation generation model, ConceptFlow, which leverages commonsense knowledge graphs to explicitly model conversation flows. By grounding conversations to the concept space, ConceptFlow represents the potential conversation flow as traverses in the concept space along commonsense relations. The traverse is guided by graph attentions in the concept graph, moving towards more meaningful directions in the concept space, in order to generate more semantic and informative responses. Experiments on Reddit conversations demonstrate ConceptFlow’s effectiveness over previous knowledge-aware conversation models and GPT-2 based models while using 70% fewer parameters, confirming the advantage of explicit modeling conversation structures. All source codes of this work are available at https://github.com/thunlp/ConceptFlow.
+
 ### ERNIE: Enhanced Language Representation with Informative Entities[[ACL 2019](https://www.aclweb.org/anthology/P19-1139.pdf)]
 
 *Zhengyan Zhang, Xu Han, Zhiyuan Liu, Xin Jiang, Maosong Sun, Qun Liu*
@@ -67,6 +84,6 @@ Huawei Noahs Ark Lab, University of Science and Technology of China
 
 *Donghan Yu, Chenguang Zhu, Yiming Yang, Michael Zeng*
 
-    Carnegie Mellon University, Microsoft Cognitive Services Research Group
+Carnegie Mellon University, Microsoft Cognitive Services Research Group
 
 **Abstract** Knowledge graphs (KGs) contain rich information about world knowledge, entitiesand relations. Thus, they can be great supplements to existing pre-trainedlanguage models. However, it remains a challenge to efficiently integrate informationfrom KG into language modeling. And the understanding of a knowledgegraph requires related context. We propose a novel joint pre-training framework,JAKET, to model both the knowledge graph and language. The knowledge moduleand language module provide essential information to mutually assist eachother: the knowledge module produces embeddings for entities in text while thelanguage module generates context-aware initial embeddings for entities and relationsin the graph. Our design enables the pre-trained model to easily adaptto unseen knowledge graphs in new domains. Experimental results on severalknowledge-aware NLP tasks show that our proposed framework achieves superiorperformance by effectively leveraging knowledge in language understanding.
