@@ -1,6 +1,6 @@
 # Knowledge-Graph Papers
 
-### ERNIE: Enhanced Language Representation with Informative Entities.[ACL 2019](https://www.aclweb.org/anthology/P19-1139.pdf)
+### ERNIE: Enhanced Language Representation with Informative Entities[[ACL 2019](https://www.aclweb.org/anthology/P19-1139.pdf)]
 
 *Zhengyan Zhang, Xu Han, Zhiyuan Liu, Xin Jiang, Maosong Sun, Qun Liu*
 
@@ -67,6 +67,6 @@ Huawei Noahs Ark Lab, University of Science and Technology of China
 
 *Donghan Yu, Chenguang Zhu, Yiming Yang, Michael Zeng*
 
-Carnegie Mellon University, Microsoft Cognitive Services Research Group
+    Carnegie Mellon University, Microsoft Cognitive Services Research Group
 
 **Abstract** Knowledge graphs (KGs) contain rich information about world knowledge, entitiesand relations. Thus, they can be great supplements to existing pre-trainedlanguage models. However, it remains a challenge to efficiently integrate informationfrom KG into language modeling. And the understanding of a knowledgegraph requires related context. We propose a novel joint pre-training framework,JAKET, to model both the knowledge graph and language. The knowledge moduleand language module provide essential information to mutually assist eachother: the knowledge module produces embeddings for entities in text while thelanguage module generates context-aware initial embeddings for entities and relationsin the graph. Our design enables the pre-trained model to easily adaptto unseen knowledge graphs in new domains. Experimental results on severalknowledge-aware NLP tasks show that our proposed framework achieves superiorperformance by effectively leveraging knowledge in language understanding.
